@@ -39,6 +39,8 @@
   
 //   ;
 
+//Comment
+
   it('Using Get with Find and Eq', () => {
     cy.visit('https://next.privat24.ua/deposit/open/')
     cy.get('tbody').find('td').find('div').find('button').eq('0')
@@ -50,21 +52,4 @@
     cy.get('nav').find('ul.scrollactive-nav').find('li').find('a').eq(0)
   })
 
-  it('By Contains name', () => {
-        cy.viewport(1800, 1000)
-        cy.visit('https://docs.cypress.io/api/commands/get#Syntax')
-        cy.get('*[class^="text-gray-500 dark:text-gray-300"]')
-      })
-
-
-      // it.only('Using Get with Find and Eq', () => {
-      //   cy.viewport(1920, 1000)
-      //   cy.visit('https://docs.cypress.io/api/commands/get#Syntax')
-      //   cy.get('aside').find('div').find('ul').find('div').find('li').find('a').eq(20)
-      // })
-
-      // it.only('Using Get with Find and Eq', () => {
-      //   cy.viewport(1920, 1000)
-      //   cy.visit('https://docs.cypress.io/api/commands/get#Syntax')
-      //   cy.get('nav').find('div').find('a').eq(3)
-      // })
+ 
