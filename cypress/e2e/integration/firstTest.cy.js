@@ -39,7 +39,7 @@
   
 //   ;
 
-//Comment
+//Comment 2
 
   it('Using Get with Find and Eq', () => {
     cy.visit('https://next.privat24.ua/deposit/open/')
@@ -47,7 +47,7 @@
   })
 
   it.only('Using Get with Find and Eq', () => {
-    cy.viewport(1920, 1000)
+    cy.viewport(1920, 900)
     cy.visit('https://docs.cypress.io/api/commands/get#Syntax')
     cy.get('nav').find('ul.scrollactive-nav').find('li').find('a').eq(0)
   })
